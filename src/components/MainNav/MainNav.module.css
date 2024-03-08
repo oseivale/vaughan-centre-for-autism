@@ -1,0 +1,57 @@
+.navContainer{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 2;
+}
+
+.mobileNavWrapper {
+    display: flex;
+    width: auto;
+    align-items: center;
+    background-color: brown;
+    height: 8vh;
+    justify-content: space-between;
+    z-index: 2;
+    padding: 1rem 2rem;
+}
+
+.mobileNavWrapper button {
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    font-size: 2.4rem;
+}
+
+.open{
+    height: 100vh;
+    background-color: brown;
+    /* transition: height 1000ms; */
+    animation: expandMobileNav 450ms ease-in-out;
+}
+
+.close {
+    height: 8vh;
+    background-color: brown;
+    /* transition: height 1000ms; */
+    animation: collapseMobileNav 450ms ease-in-out;
+}
+
+@keyframes expandMobileNav {
+    from {
+        height: 8vh;
+    }
+    to {
+        height: 100vh;
+    }
+}
+
+@keyframes collapseMobileNav {
+    from {
+        height: 100vh;
+    }
+    to {
+        height: 8vh;
+    }
+}
