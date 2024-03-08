@@ -1,27 +1,35 @@
 export const footerData = {
     footerLinks: [
         {
-            label: 'Popular Courses',
+            label: 'Our Services',
+            path: '/services'
+        },
+        {
+            label: 'Our Team',
             path: ''
         },
         {
-            label: 'Forums',
+            label: 'Career Application',
             path: ''
         },
         {
-            label: 'Our Teachers',
+            label: 'Child Assessment Form',
             path: ''
         },
         {
-            label: 'Upcoming Events',
+            label: 'Newsletters',
             path: ''
         },
-        {
-            label: 'Contact Us',
-            path: ''
-        }
     ]
 }
+
+// Publications
+// Our Team
+// Online Certificate Courses
+// Career Application
+// Child Assessment Form
+// Newsletters
+
 
 export const publications = {
     publicationLinks: [
@@ -44,6 +52,27 @@ export const publications = {
         {
             label: 'Publication 5',
             path: ''
+        }
+    ]
+}
+
+export const mainNavLinks = {
+    navLinks: [
+        {
+            label: 'Our Programs',
+            path: '/programs'
+        },
+        {
+            label: 'About Us',
+            path: '/about'
+        },
+        {
+            label: 'Newsletters',
+            path: '/newletters'
+        },
+        {
+            label: 'Contact Us',
+            path: '/contact'
         }
     ]
 }
