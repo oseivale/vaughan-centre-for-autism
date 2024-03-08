@@ -3,7 +3,7 @@ import Image from "next/image";
 import { Inter } from "next/font/google";
 import { Footer } from "@/components/Footer/Footer";
 import { MainNav } from '@/components/MainNav/MainNav'
-import { footerData, publications, mainNavLinks } from "../../pages/data";
+import { footerData, publications, mainNavLinks } from "../data";
 import { arimo, nunito_sans, shantell_sans, grupo, staatliches } from '../../fonts/fonts'
 
 export function Layout({
