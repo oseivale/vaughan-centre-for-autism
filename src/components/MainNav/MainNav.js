@@ -18,7 +18,7 @@ export function MainNav({ navLinks }) {
         <>
             <nav className={`${style.navContainer} ${open ? style.open : style.close} `}>
                 <div className={style.mobileNavWrapper}>
-                    <Link className={style.navLogo} href='/'><Image width={100} height={100} alt='' src={img} /></Link>
+                    <Link className={style.navLogo} href='/'><Image width={75} height={80} alt='' src={img} /></Link>
                     <button onClick={toggleOpen}>{open ? <Close /> : <Hamburger />}</button>
                 </div>
                 {open && (

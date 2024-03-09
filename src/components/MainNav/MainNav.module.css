@@ -18,7 +18,7 @@
     height: 8vh;
     justify-content: space-between;
     z-index: 2;
-    padding: 1rem 2rem;
+    padding: 1rem;
     
 }
 
@@ -83,6 +83,15 @@
     }
     to {
         opacity: 1;
+    }
+}
+
+@keyframes fadeOut {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
     }
 }
 
