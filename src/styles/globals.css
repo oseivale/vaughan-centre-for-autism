@@ -1,4 +1,27 @@
 body {
   margin: 0;
-  padding-top: 8rem;
+  margin-top: 4rem;
+}
+
+:root {
+  /* Brand Pallette */
+  --brand-red: #c11b33;
+  --brand-navy: #012d59;
+  --brand-light-blue: #0263C3;
+  --brand-white: #ffffff;
+  --brand-black: #000000;
+  --brand-green: #24a062;
+  --brand-yellow: #f6bb12;
+}
+
+.btnPrimary{
+  background-color: var( --brand-yellow);
+  padding: 1rem 2rem;
+  text-transform: uppercase;
+  color: var(--brand-navy);
+  text-decoration: none;
+  font-weight: 600;
+  display: inline-block;
+  margin-top: 1rem;
+  border-radius: 8px;
 }

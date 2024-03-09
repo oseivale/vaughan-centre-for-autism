@@ -1,12 +1,17 @@
 import Link from "next/link"
+import Image from "next/image";
 import style from './Footer.module.css'
-import { arimo, nunito_sans, shantell_sans, grupo, staatliches } from '../../fonts/fonts'
+import { arimo, nunito_sans, shantell_sans, grupo, staatliches } from '../../fonts/fonts';
+import img from '/public/Final.gif';
 
 export function Footer({ footerLinks, publications }) {
     return (
         <footer className={`${style.footerContainer} ${nunito_sans.className}`}>
             <div className={style.footerWrapper}>
                 <div>
+                    <Image width={200} height={200} alt='' src={img} />
+                </div>
+                {/* <div>
                     <h1>Publications</h1>
                     <ul className={style.linkWrapper}>
                         {publications.map(publication => {
@@ -17,7 +22,7 @@ export function Footer({ footerLinks, publications }) {
                             )
                         })}
                     </ul>
-                </div>
+                </div> */}
                 <div>
                     <h1>Helpful Links</h1>
                     <ul className={style.linkWrapper}>

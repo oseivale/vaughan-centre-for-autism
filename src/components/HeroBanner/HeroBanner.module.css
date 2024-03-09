@@ -1,0 +1,12 @@
+.heroContainer {
+    padding: 2rem;
+}
+
+.heroContainer h1 {
+    font-size: 2.1rem;
+}
+
+.heroContainer p {
+    line-height: 32px;
+    font-size: 1.2rem;
+}
