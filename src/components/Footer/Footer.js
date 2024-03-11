@@ -9,7 +9,7 @@ export function Footer({ footerLinks, publications }) {
         <footer className={`${style.footerContainer} ${nunito_sans.className}`}>
             <div className={style.footerWrapper}>
                 <div>
-                    <Image width={200} height={200} alt='' src={img} />
+                    <Image width={180} height={200} alt='' src={img} />
                 </div>
                 {/* <div>
                     <h1>Publications</h1>
