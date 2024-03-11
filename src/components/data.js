@@ -76,3 +76,40 @@ export const mainNavLinks = {
         }
     ]
 }
+
+export const listData = [
+    {
+        description: 'Free 1 hour assessment and consultation'
+    },
+    {
+        description: 'Use of modern tools & methods'
+    },
+    {
+        description: `Collaboration with your child's teachers`
+    },
+    {
+        description: `Incorporation into any IEP`
+    },
+    {
+        description: `Periodic reports on your child's progress`
+    }
+]
+
+export const columns = [
+    {
+        header: 'Have Questions?',
+        subheader: 'Contact us for a free assessment and consultation!',
+        ctas: [
+            {
+                ctaLabel: 'Book Now',
+                ctaPath: '#'
+            }
+        ]
+    }
+]
+
+export const headerColumn = [
+    {
+        header: `"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam."`,
+    }
+]

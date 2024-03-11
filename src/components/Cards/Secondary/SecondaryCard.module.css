@@ -1,0 +1,29 @@
+.cardContainer {
+    max-width: 90%;
+    margin: 0 auto;
+    
+}
+
+.cardWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.cardWrapper p{
+    font-size: 1.2rem;
+    line-height: 30px;
+    color: #5F5F7C;
+}
+
+.cardWrapper h1{
+    font-size: 2rem;
+    margin: 0;
+    color: var(--brand-navy);
+}
+
+.cardWrapper img {
+    width: auto;
+    display: inline-block;
+    margin-bottom: 1.2rem;
+}

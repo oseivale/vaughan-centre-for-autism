@@ -12,6 +12,15 @@ body {
   --brand-black: #000000;
   --brand-green: #24a062;
   --brand-yellow: #f6bb12;
+
+  /* Grey Palette */
+  --grey-light: #F2F4F4;
+}
+
+.grid-center{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .btnPrimary{
@@ -24,4 +33,32 @@ body {
   display: inline-block;
   margin-top: 1rem;
   border-radius: 8px;
+}
+
+.btnSecondary {
+  background-color: var(--brand-navy);
+  padding: 1rem 2rem;
+  text-transform: uppercase;
+  color: var(--brand-white);
+  text-decoration: none;
+  font-weight: 600;
+  display: inline-block;
+  margin-top: 1rem;
+  border-radius: 8px;
+}
+
+@media screen and (min-width: 740px) {
+  .grid-center-3-col{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    max-width: 1080px;
+    margin: 4rem auto;
+  }
+
+  .grid-2-col {
+    max-width: 1080px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+  }
 }

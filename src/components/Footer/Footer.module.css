@@ -1,6 +1,5 @@
 .footerContainer{
     position: relative;
-    top: 60vh;
     background-color: var(--brand-light-blue);
     display: flex;
     flex-direction: column;

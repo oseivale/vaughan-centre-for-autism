@@ -1,0 +1,38 @@
+.cardContainer{
+    max-width: 20rem;
+    padding: 1rem;
+    margin: 0 auto;
+}
+
+.cardContainer p{
+    margin-top: 0rem;
+    line-height: 25px;
+    color: #5F5F7C;
+}
+
+.headerWrapper h1 {
+    color: var(--brand-navy);
+    font-size: 1.4rem;
+}
+
+.headerWrapper{
+    display: flex;
+    align-items: center;
+}
+
+.icon svg {
+    font-size: 4rem;
+    margin-right: 1rem;
+    color: var(--brand-green);
+}
+
+
+@media screen and (min-width: 740px) {
+    .cardContainer{
+    /* max-width: 20rem; */
+    padding: 1rem;
+    flex-basis: 20rem;
+    /* margin: 0 auto; */
+}
+}
+
