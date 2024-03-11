@@ -1,7 +1,7 @@
 import Link from "next/link"
 import Image from "next/image";
 import style from './Footer.module.css'
-import { arimo, nunito_sans, shantell_sans, grupo, staatliches } from '../../fonts/fonts';
+import { arimo, nunito_sans, grupo, staatliches } from '../../fonts/fonts';
 import img from '/public/Final.gif';
 
 export function Footer({ footerLinks, publications }) {

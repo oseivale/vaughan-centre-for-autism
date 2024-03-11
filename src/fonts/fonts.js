@@ -1,4 +1,4 @@
-import { Arimo, Nunito_Sans, Raleway, Shantell_Sans, Gruppo, Staatliches } from 'next/font/google'
+import { Arimo, Nunito_Sans, Raleway, Gruppo, Staatliches } from 'next/font/google'
 
 
 export const arimo = Arimo({
@@ -16,13 +16,6 @@ export const raleway = Raleway({
 })
 
 export const nunito_sans = Nunito_Sans({
-    weight: ['400', '500', '600', '700'],
-    style: ['normal'],
-    subsets: ['latin'],
-    display: 'swap',
-})
-
-export const shantell_sans = Shantell_Sans({
     weight: ['400', '500', '600', '700'],
     style: ['normal'],
     subsets: ['latin'],

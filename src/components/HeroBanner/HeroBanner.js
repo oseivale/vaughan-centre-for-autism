@@ -1,5 +1,5 @@
 import Link from "next/link"
-import { arimo, nunito_sans, shantell_sans, grupo, staatliches } from '../../fonts/fonts'
+import { arimo, nunito_sans, grupo, staatliches } from '../../fonts/fonts'
 import style from './HeroBanner.module.css';
 import heroImgMobile from '/public/krakenimages-Br-ayoAxFuQ-unsplash.jpg'
 import heroImg from '/public/aaron-burden-1zR3WNSTnvY-unsplash.jpg'

@@ -1,5 +1,5 @@
 import style from './PrimaryCard.module.css'
-import { arimo, nunito_sans, shantell_sans, grupo, staatliches } from '../../../fonts/fonts';
+import { arimo, nunito_sans, grupo, staatliches } from '../../../fonts/fonts';
 
 export function PrimaryCard({ icon, cardDescription, cardHeader }) {
 

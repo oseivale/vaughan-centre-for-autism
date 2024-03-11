@@ -5,7 +5,7 @@ import { Footer } from "@/components/Footer/Footer";
 import { MainNav } from '@/components/MainNav/MainNav'
 import { PrimaryCard } from '@/components/Cards/PrimaryCard/PrimaryCard'
 import { footerData, publications, mainNavLinks, listData } from "../components/data";
-import { arimo, nunito_sans, shantell_sans, grupo, staatliches } from '../fonts/fonts'
+import { arimo, nunito_sans, grupo, staatliches } from '../fonts/fonts'
 import { Layout } from '@/components/Layout/Layout';
 import { HeroBanner } from '@/components/HeroBanner/HeroBanner';
 import { Speech } from '../icons/speech'

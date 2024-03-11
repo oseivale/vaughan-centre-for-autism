@@ -3,7 +3,7 @@ import Link from 'next/link';
 import { useState } from 'react';
 import { Close } from '../../icons/close'
 import { Hamburger } from '../../icons/hamburger'
-import { arimo, nunito_sans, shantell_sans, grupo, staatliches } from '../../fonts/fonts'
+import { arimo, nunito_sans, grupo, staatliches } from '../../fonts/fonts'
 import Image from 'next/image';
 import img from '/public/Final.gif';
 

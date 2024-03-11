@@ -4,7 +4,7 @@ import { Inter } from "next/font/google";
 import { Footer } from "@/components/Footer/Footer";
 import { MainNav } from '@/components/MainNav/MainNav'
 import { footerData, publications, mainNavLinks } from "../components/data";
-import { arimo, nunito_sans, shantell_sans, grupo, staatliches } from '../fonts/fonts'
+import { arimo, nunito_sans, grupo, staatliches } from '../fonts/fonts'
 import { Layout } from '@/components/Layout/Layout'
 
 const inter = Inter({ subsets: ["latin"] });
