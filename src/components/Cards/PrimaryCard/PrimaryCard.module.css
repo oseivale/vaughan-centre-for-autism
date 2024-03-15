@@ -24,7 +24,7 @@
 }
 
 .icon svg {
-    font-size: 3rem;
+    font-size: 3.5rem;
     margin-right: 1rem;
     color: var(--brand-green);
 }
@@ -58,10 +58,20 @@
 
 @media screen and (min-width: 740px) {
     .cardContainer{
-    /* max-width: 20rem; */
-    padding: 1rem;
-    flex-basis: 20rem;
-    /* margin: 0 auto; */
-}
+        max-width: 29rem;
+        padding: 1rem;
+        flex-basis: 20rem;
+        /* margin: 0 auto; */
+    }
+
+    .headerWrapper h1 {
+        font-size: 1.65rem;
+    }
+
+    .cardContainer p{
+        padding: 0 .5rem;
+        font-size: 1.1rem;
+        line-height: 27px;
+    }
 }
 

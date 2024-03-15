@@ -37,9 +37,11 @@ export default function Home() {
 
         <PrimaryCard icon={<Book />} cardDescription={'We treat clinically diagnosed impairments such as toileting incontinence, writing challenges, and other psychosocial stressors.'} cardHeader={'Occupational Challenges'} />
 
-        <PrimaryCard icon={<Education />} cardDescription={'Our behavior modification program aims at giving the client the opportunity for learning and acquiring new skills. Our treatment program provide a creative solution for treating maladaptive behaviors. We combine therapy and education in our approach to eliminate problem behaviors. <br> We have an effective autism treatment program intended to enable the client to learn and acquire new positive behaviors in a collaborative problem - solving environment. '} cardHeader={'Behaviour Modification'} />
-        <PrimaryCard icon={<Speech />} cardDescription={'We have an effective speech and language development program with a proven record. Nonverbal children in our program have developed speech and language skills in a record time. '} cardHeader={'Speech, Language and Communication Development '} />
+
+
         <PrimaryCard icon={<Lightbulb />} cardDescription={'We treat clinically diagnosed academic or educational problems such as learning disorders (low-level literacy), underachievement and task avoidance. We work with teachers and parents to help students to meet their individual education plan (IEP) targets.'} cardHeader={'Academic or Educational Challenges'} />
+        <PrimaryCard icon={<Speech />} cardDescription={'We have an effective speech and language development program with a proven record. Nonverbal children in our program have developed speech and language skills in a record time. '} cardHeader={'Speech, Language and Communication Development '} />
+        <PrimaryCard icon={<Education />} cardDescription={'Our behavior modification program aims at giving the client the opportunity for learning and acquiring new skills. Our treatment program provide a creative solution for treating maladaptive behaviors. We combine therapy and education in our approach to eliminate problem behaviors. <br> We have an effective autism treatment program intended to enable the client to learn and acquire new positive behaviors in a collaborative problem - solving environment. '} cardHeader={'Behaviour Modification'} />
       </section>
       <PageRow id={'questions'} columns={columns} />
     </Layout>

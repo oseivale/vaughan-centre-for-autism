@@ -7,6 +7,11 @@ body {
   margin-top: 4rem;
 }
 
+p {
+  font-size: 1.125rem;
+  line-height: 28px;
+}
+
 :root {
   /* Brand Pallette */
   --brand-red: #c11b33;
@@ -37,6 +42,7 @@ body {
   display: inline-block;
   margin-top: 1rem;
   border-radius: 8px;
+  transition: all 450ms ease;
 }
 
 .btnSecondary {
@@ -49,17 +55,52 @@ body {
   display: inline-block;
   margin-top: 1rem;
   border-radius: 8px;
+  transition: all 450ms ease;
 }
+
+.btnSecondary:hover {
+  background-color: var(--brand-yellow); 
+  color: var(--brand-navy);
+}
+
+.btnPrimary:hover{
+  background-color: var( --brand-white);
+  color: var(--brand-navy);
+}
+
+.btn-link {
+    text-decoration: none;
+    background: none;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    transition: color 450ms;
+    color: var(--brand-navy);
+    max-width: 12rem;
+}
+
+.btn-link:hover, .btn-link svg:hover {
+  color: var(--brand-green);
+}
+
+ .btn-link svg {
+  font-size: 3.75rem;
+ }
 
 .grid-col-1 {
   display: flex;
   flex-direction: column;
 }
 
+.grid-col-1 img {
+  width: 100%;
+}
+
 @media screen and (min-width: 740px) {
   .grid-center-3-col{
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1rem;
+    grid-template-columns: repeat(2, 1fr);
     max-width: 1080px;
     margin: 1rem auto;
   }
@@ -69,5 +110,16 @@ body {
     margin: 0 auto;
     display: grid;
     grid-template-columns: 3fr 2fr;
+  }
+
+  .grid-2-4-col {
+    display: grid;
+    grid-template-columns: 2fr 4fr;
+    grid-gap: 1.2rem;
+  }
+
+  .grid-2-4-col p{
+    padding: 0;
+    margin: 0;
   }
 }

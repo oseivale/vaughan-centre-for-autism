@@ -54,7 +54,7 @@
         background: none;
         background-image: linear-gradient(to left, rgba(1, 45, 89,.3), rgba(1, 45, 89, .3));
         display: grid;
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: 2fr 3fr;
     }
 
     .heroWrapper{
@@ -62,7 +62,7 @@
         max-width: 1080px;
       /* height: 30rem; */
       background-color: var(--brand-navy);
-      padding: 4rem 2rem;
+      padding: 4rem 3rem;
     }
 
     .heroContainer .heroImg{

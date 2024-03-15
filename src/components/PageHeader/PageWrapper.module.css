@@ -11,11 +11,11 @@
 }
 
 .formHeader {
-    background-color: var(--brand-yellow);
+    background-color: var(--brand-navy);
     width: 100%;
     display: flex;
     align-items: center;
-    color: var(--brand-navy);
+    color: var(--brand-white);
     height: 15vh;
 }
 
@@ -38,7 +38,7 @@
     margin: 3rem auto;
 }
 
-.contactContentWrapper h2, .contactContentWrapper p {
+.contactContentWrapper {
     color: var(--brand-navy);
     padding: 0 1rem;
 }
@@ -131,7 +131,7 @@
         width: 100%;
         display: grid;
         grid-template-columns: 2fr 3fr;
-    }
+    } 
     
     .contactImg {
         height: 35vh;
