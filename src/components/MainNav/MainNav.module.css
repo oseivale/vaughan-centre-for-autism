@@ -100,7 +100,7 @@
 
 @keyframes collapseMobileNav {
     from {
-        height: 100vh;
+        height: auto;
     }
     to {
         height: 8vh;

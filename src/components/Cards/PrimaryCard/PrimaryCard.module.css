@@ -1,7 +1,10 @@
 .cardContainer{
     max-width: 20rem;
+    width: 100%;
     padding: 1rem;
     margin: 0 auto;
+    display: flex;
+    align-items: flex-end;
 }
 
 .cardContainer p{
@@ -12,7 +15,7 @@
 
 .headerWrapper h1 {
     color: var(--brand-navy);
-    font-size: 1.4rem;
+    font-size: 1.125rem;
 }
 
 .headerWrapper{
@@ -21,8 +24,34 @@
 }
 
 .icon svg {
-    font-size: 4rem;
+    font-size: 3rem;
     margin-right: 1rem;
+    color: var(--brand-green);
+}
+
+.cardButton {
+    border: none;
+    background: none;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    transition: color 450ms;
+    color: var(--brand-navy)
+}
+
+.cardButton span{
+    display: flex;
+    margin-left: .5rem;
+    transition: margin-left 450ms;
+}
+
+.cardButton:hover span {
+    margin-left: .75rem;
+    cursor: pointer;
+}
+
+.cardButton:hover {
+    cursor: pointer;
     color: var(--brand-green);
 }
 

@@ -6,13 +6,19 @@ import { MainNav } from '@/components/MainNav/MainNav'
 import { footerData, publications, mainNavLinks } from "../components/data";
 import { arimo, nunito_sans, grupo, staatliches } from '../fonts/fonts'
 import { Layout } from '@/components/Layout/Layout'
+import { ContactForm } from "@/components/Form/Form";
 
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
   return (
     <Layout>
-      <p>{'Contact Content here'}</p>
+      <section className={'grid-col-1'}>
+        <div>
+          <ContactForm />
+        </div>
+      </section>
+
     </Layout>
   );
 }

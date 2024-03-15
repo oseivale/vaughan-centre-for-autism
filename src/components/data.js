@@ -67,7 +67,7 @@ export const mainNavLinks = {
             path: '/about'
         },
         {
-            label: 'Newsletters',
+            label: 'Self Assessment',
             path: '/newletters'
         },
         {
@@ -111,5 +111,12 @@ export const columns = [
 export const headerColumn = [
     {
         header: `"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam."`,
+    }
+]
+
+export const headerColumn2 = [
+    {
+        header: 'Our Services',
+        subheader: `---`,
     }
 ]

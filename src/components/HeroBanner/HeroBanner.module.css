@@ -1,14 +1,15 @@
 .heroContainer {
     width: 100vw;
     margin-bottom: 4rem;
-    background-image: linear-gradient(to left, rgba(0,0,0,.6), rgba(0,0,0,.6));
+    background-image: linear-gradient(to left, rgba(1, 45, 89,.5), rgba(1, 45, 89, .5));
+    background-color: var(--brand-navy);
 }
 
 .heroWrapper{
-    padding: 6rem 2rem 0;
+    padding: 2rem 0;
     display: flex;
     flex-direction: column;
-    position: absolute;
+    /* position: absolute; */    
     max-width: 80%;
     margin: 0 auto;
     top: 2rem;
@@ -18,7 +19,7 @@
     position: relative;
     display: block;
     height: 100%;
-    width: 100%;
+    /* width: 400px; */
     z-index: -2;
 }
 
@@ -34,45 +35,53 @@
     color: var(--brand-white);
 }
 
-.heroContainer .heroImg {
+/* .heroContainer .heroImg {
     display: none;
-}
+} */
 
 
 @media screen and (min-width: 740px) {
-    .heroContainer .heroImgMobile {
+    /* .heroContainer .heroImgMobile {
         display: none;
-    }
+    } */
 
     .heroContainer {
-        display: flex;
+        /* display: flex;
         align-items: center;
-        justify-content: center;
+        justify-content: center; */
         /* text-align: left; */
+        /* height: 20vh; */
+        background: none;
+        background-image: linear-gradient(to left, rgba(1, 45, 89,.3), rgba(1, 45, 89, .3));
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
     }
 
     .heroWrapper{
-        margin: 5rem auto;
+        /* margin: 5rem auto; */
         max-width: 1080px;
+      /* height: 30rem; */
+      background-color: var(--brand-navy);
+      padding: 4rem 2rem;
     }
 
     .heroContainer .heroImg{
         position: relative;
         display: block;
-        height: 55rem;
+        height: 30rem;
         width: 100%;
         z-index: -2;
     }
 
     .heroContainer h1 {
-        font-size: 4rem;
+        font-size: 2.5rem;
         margin-bottom: 0;
         color: var(--brand-white);
     }
     
     .heroContainer p {
-        line-height: 3.3rem;
-        font-size: 2.2rem;
+        /* line-height: 3.3rem;*/
+        font-size: 1.4rem; 
         color: var(--brand-white);
         font-weight: 200;
     }
