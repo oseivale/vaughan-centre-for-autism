@@ -1,6 +1,6 @@
 .cardContainer{
-    max-width: 20rem;
-    width: 100%;
+    /* max-width: 20rem; */
+    width: 90%;
     padding: 1rem;
     margin: 0 auto;
     display: flex;
@@ -36,7 +36,8 @@
     display: flex;
     align-items: center;
     transition: color 450ms;
-    color: var(--brand-navy)
+    color: var(--brand-navy);
+    padding: 0;
 }
 
 .cardButton span{
@@ -72,6 +73,10 @@
         padding: 0 .5rem;
         font-size: 1.1rem;
         line-height: 27px;
+    }
+
+    .cardButton {
+        padding: 0 .5rem;
     }
 }
 
