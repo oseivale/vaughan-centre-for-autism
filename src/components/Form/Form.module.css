@@ -52,6 +52,15 @@
     background-color: var(--brand-red);
 }
 
+.formHeader h2::after {
+    content: " ";
+    width: 74px;
+    display: block;
+    position: relative;
+    height: 2px;
+    background-color: var(--brand-navy);
+}
+
 .formLabel {
     display: block;
     color: var(--brand-navy);
@@ -110,7 +119,6 @@
     .headerContentWrapper{
         display: grid;
         grid-template-columns: 2fr 3fr;
-        
     }
 
     .formHeader {

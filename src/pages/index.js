@@ -31,7 +31,7 @@ export default function Home() {
         <SecondaryCard cardHeader={'Why Choose Vaughan Center for Autism?'} cardBody={'We provide a comprehensive treatment program for our clients because ASD comes with multiple challenges that need to treated. For example, a nonverbal client is likely to demonstrate behavior or academic challenges because of communication deficits. Consequently, it is important that the client receives treatment for the behaviors that are likely to trigger other negative behaviors.'} />
         <List listData={listData} listHeader={'All Programs Include:'} />
       </section>
-      <PageRow columns={headerColumn2} />
+      <PageRow columns={headerColumn2} pattern={true} />
       <section className={'grid-center-3-col'}>
         <PrimaryCard icon={<Gear />} cardDescription={'We employ special educational strategies that generate a fast, fluid and sustainable development of social skills with no stress to the child.  We have strategies to help individuals on the autism spectrum to develop play skills and friendships and integrate successfully into the social environment.'} cardHeader={'Social Skills'} />
 

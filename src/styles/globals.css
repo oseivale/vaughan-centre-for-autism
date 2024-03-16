@@ -12,6 +12,30 @@ p {
   line-height: 28px;
 }
 
+caption {
+  margin-top: .5rem;
+  text-align: left;
+}
+
+.large{
+  font-size: 2rem;
+}
+
+.small{
+  font-size: 1.2rem;
+}
+
+.about-img {
+  height: 80%;
+}
+
+.pattern-container{
+  display: flex;
+  align-items: center;
+  color: var(--brand-navy);
+  justify-content: center;
+}
+
 :root {
   /* Brand Pallette */
   --brand-red: #c11b33;

@@ -117,6 +117,6 @@ export const headerColumn = [
 export const headerColumn2 = [
     {
         header: 'Our Services',
-        subheader: `---`,
+        subheader: '',
     }
 ]

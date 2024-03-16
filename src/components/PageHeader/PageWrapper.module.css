@@ -52,6 +52,15 @@
     background-color: var(--brand-red);
 }
 
+.formHeader h2::after {
+    content: " ";
+    width: 74px;
+    display: block;
+    position: relative;
+    height: 2px;
+    background-color: var(--brand-white);
+}
+
 .formLabel {
     display: block;
     color: var(--brand-navy);

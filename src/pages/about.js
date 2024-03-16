@@ -22,8 +22,9 @@ export default function Home() {
           </section>
           <section>
             <h1>A Message from our Founder:</h1>
-            <div className={'grid-2-4-col grid-col-1'}>
-              <Image src={placeholder} alt='' width={200} height={150} />
+            <div className={'grid-col-1 '}>
+              <Image className={'about-img'} src={placeholder} alt='' width={200} height={350} />
+              <caption>Dr. Albert Wireko Osei, PhD, Founder, Vaughan Centre for Autism</caption>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
             </div>
 
