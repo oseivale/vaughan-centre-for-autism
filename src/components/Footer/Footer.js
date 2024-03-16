@@ -45,7 +45,7 @@ export function Footer({ footerLinks, publications }) {
                 </div>
             </div>
             <div className={style.bottomBorder}></div>
-            <p className={style.copyrightText}>&copy;{` ${new Date().getFullYear()} Vaughan Center for Autism`}</p>
+            <p className={style.copyrightText}>&copy;{` ${new Date().getFullYear()} Vaughan Centre for Autism`}</p>
         </footer>
     )
 }
