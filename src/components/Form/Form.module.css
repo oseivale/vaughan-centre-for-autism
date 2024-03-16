@@ -96,23 +96,26 @@
     font-weight: 300;
 }
 
-/* .formInputWrapper {
-    padding: 1rem;
-} */
-
 .formButton {
     background-color: var(--brand-navy);
     padding: 1rem 2rem;
-    /* text-transform: uppercase; */
+    text-transform: uppercase;
     color: var(--brand-white);
     text-decoration: none;
-    font-weight: 600;
+    font-weight: 300;
     display: inline-block;
     margin-top: 1rem;
-    border-radius: 3px;
-    font-size: 1rem;
+    border-radius: 8px;
+    font-size: 1.3rem;
     width: 100%;
     border: none;
+    transition: all 450ms ease;
+}
+
+.formButton:hover {
+    background-color: var(--brand-yellow);
+    color: var(--brand-navy);
+    cursor: pointer;
 }
 
 @media screen and (min-width: 740px) {
@@ -127,7 +130,6 @@
         font-size: 2.5rem;
     }
     .formWrapper{
-        /* margin: 0 .25rem; */
         width: 100%;
         display: block;
         max-width: 90%;
