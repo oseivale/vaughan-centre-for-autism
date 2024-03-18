@@ -2,6 +2,7 @@ import Link from "next/link";
 import style from './PageRow.module.css'
 import { nunito_sans } from "@/fonts/fonts";
 import { Pattern, PuzzlePattern, SwirlPattern } from "@/icons/pattern";
+import { Puzzle } from "@/icons/puzzle";
 
 
 export function PageRow({ columns, id, pattern }) {
@@ -14,11 +15,14 @@ export function PageRow({ columns, id, pattern }) {
                     return (
                         <div key='' className={style.columnWrapper}>
                             <h1>{column.header}</h1>
-                            {pattern && (
+                            {pattern === 'swirl' && (
                                 <SwirlPattern />
                             )}
 
-                            {/* <PuzzlePattern /> */}
+                            {pattern === 'puzzle' && (
+                                <Puzzle />
+                            )}
+
                             <h2>{column.subheader}</h2>
                             <p>{column.bodyCopy}</p>
                             {column.ctas && (

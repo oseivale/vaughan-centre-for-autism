@@ -1,7 +1,10 @@
+.pageContainer{}
+
 .formContainer{
     width: 100%;
     display: flex;
     flex-direction: column;
+    padding-bottom: 5rem;
 }
 
 .contactImg {
@@ -126,7 +129,14 @@
         box-sizing: border-box;
         height: 100%;
         font-size: 2.5rem;
+        max-height: 40vh;
     }
+
+    .headerContentWrapper img {
+        max-height: 40vh;
+        height: 100%;
+    }
+
     .formWrapper{
         /* margin: 0 .25rem; */
         width: 100%;

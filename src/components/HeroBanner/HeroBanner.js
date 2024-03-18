@@ -5,7 +5,7 @@ import heroImgMobile from '/public/krakenimages-Br-ayoAxFuQ-unsplash.jpg'
 import heroImg from '/public/annie-spratt-ORDz1m1-q0I-unsplash.jpg'
 import Image from "next/image";
 
-export function HeroBanner({ bgImg, id }) {
+export function HeroBanner({ bgImg, id, ctaPath }) {
 
     return (
         <section id={style[`${id}`]} className={`${style.heroContainer} ${nunito_sans.className}`}>
@@ -15,7 +15,7 @@ export function HeroBanner({ bgImg, id }) {
                 <h1>Vaughan Centre for Autism</h1>
                 <p>Our clinical intervention program integrates three common intervention methods for persons with autism spectrum disorder or any other developmental disability</p>
                 <div>
-                    <Link className={'btnPrimary'} href='#'>Learn More</Link>
+                    <Link className={'btnPrimary'} href={ctaPath}>Learn More</Link>
                 </div>
 
             </div>

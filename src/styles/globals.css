@@ -26,7 +26,7 @@ caption {
 }
 
 .about-img {
-  height: 80%;
+  height: 40%;
 }
 
 .pattern-container{
@@ -120,13 +120,62 @@ caption {
   width: 100%;
 }
 
+.grid-section {
+  display: flex;
+  flex-direction: column;
+  /* align-items: flex-start; */
+  justify-content: center;
+  width: 100%;
+  max-width: 200px;
+  /* margin: 2rem auto; */
+}
+
+.grid-center-3-col{
+  display: block;
+}
+
+
+.questionBox{
+  display: flex;
+  flex-direction: column;
+  background-color: #F2F4F4;
+  padding: 2rem 3rem;
+  justify-content: center;
+  border-radius: 5px;
+}
+
+.questionBox a {
+  width: 45%;
+}
+
+.questionBox h1 {
+  margin: 0;
+}
+
 @media screen and (min-width: 740px) {
   .grid-center-3-col{
     display: grid;
     grid-gap: 1rem;
     grid-template-columns: repeat(2, 1fr);
     max-width: 1080px;
-    margin: 1rem auto;
+    margin: 0rem auto;
+  }
+
+  .grid-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 200px;
+    margin: 2rem auto;
+  }
+
+  .grid-card-3-col{
+    display: grid;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: repeat(2, 1fr);
   }
 
   .grid-2-col {
@@ -145,5 +194,26 @@ caption {
   .grid-2-4-col p{
     padding: 0;
     margin: 0;
+  }
+
+  .questionBox{
+    margin-top: 4rem;
+  }
+
+  .questionBox a {
+    width: 20%;
+  }
+
+  .formsPageTitleHeader {
+    margin-bottom: 3rem;
+  }
+
+  .about-img {
+    height: 30rem;
+  }
+
+  .grid-col-1 img {
+    width: 80%;
+    object-fit: cover;
   }
 }

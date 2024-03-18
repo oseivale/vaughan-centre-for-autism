@@ -1,5 +1,4 @@
 .cardContainer{
-    /* max-width: 20rem; */
     width: 90%;
     padding: 1rem;
     margin: 0 auto;
@@ -31,8 +30,9 @@
 
 .cardButton {
     border: none;
+    text-decoration: none;
     background: none;
-    font-size: 1rem;
+    font-size: 1.1rem;
     display: flex;
     align-items: center;
     transition: color 450ms;
