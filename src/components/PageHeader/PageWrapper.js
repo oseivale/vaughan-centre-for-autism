@@ -2,9 +2,7 @@ import React from 'react';
 import style from './PageWrapper.module.css';
 import { nunito_sans } from '@/fonts/fonts';
 import Image from 'next/image';
-import contactImg from '/public/unseen-studio-s9CC2SKySJM-unsplash.jpg';
-import Link from 'next/link';
-import { Download } from '@/icons/download';
+
 
 export function PageWrapper({ children, pageHeader, pageHeaderImg, pageHeaderBgColor }) {
 

@@ -1,11 +1,5 @@
 import { useEffect, useState } from "react";
-import Head from "next/head";
-import Image from "next/image";
 import { Inter } from "next/font/google";
-import { Footer } from "@/components/Footer/Footer";
-import { MainNav } from '@/components/MainNav/MainNav'
-// import { footerData, publications, mainNavLinks } from "../components/data";
-// import { arimo, nunito_sans, grupo, staatliches } from '../fonts/fonts'
 import { Layout } from '@/components/Layout/Layout'
 import { PageWrapper } from "@/components/PageHeader/PageWrapper";
 import { useRouter } from "next/router";
@@ -15,7 +9,7 @@ import Link from "next/link";
 const inter = Inter({ subsets: ["latin"] });
 
 
-export default function ProgramDetails({ params }) {
+export default function ProgramDetails() {
     const [pageData, setPageData] = useState([])
 
     const router = useRouter()
