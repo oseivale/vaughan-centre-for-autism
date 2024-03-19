@@ -36,7 +36,7 @@ export default function Home() {
       <PageRow columns={headerColumn} />
       <section>
         <div className={'three-card'}>
-          <TertiaryCard CardIcon={Assessment} cardLinkLabel={'Assessment Form'} bgColor={`var(--brand-navy)`} path={'/forms'} cardImage={'/cdc-GDokEYnOfnE-unsplash (1).jpg'} />
+          <TertiaryCard CardIcon={Assessment} cardLinkLabel={'Assessment Form'} bgColor={`var(--brand-navy)`} path={'/forms'} cardImage={'/cdc-GDokEYnOfnE-unsplash-one.jpg'} />
           <TertiaryCard CardIcon={Publish} cardLinkLabel={'Publications'} cardImage={'/stephen-phillips-hostreviews-co-uk-Gs-tdnDyYKE-unsplash.jpg'} path={'#'} />
           <TertiaryCard CardIcon={Clipboard} cardLinkLabel={'Registration Form'} cardImage={'/kelly-sikkema-tQQ4BwN_UFs-unsplash.jpg'} bgColor={`var(--brand-green)`} path={'/forms'} />
         </div>
