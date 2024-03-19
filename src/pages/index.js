@@ -4,7 +4,7 @@ import { Inter } from "next/font/google";
 import { Footer } from "@/components/Footer/Footer";
 import { MainNav } from '@/components/MainNav/MainNav'
 import { PrimaryCard } from '@/components/Cards/PrimaryCard/PrimaryCard'
-import { footerData, publications, mainNavLinks, listData } from "../components/data";
+import { footerData, publications, mainNavLinks, listData, headerColumn3 } from "../components/data";
 import { arimo, nunito_sans, grupo, staatliches } from '../fonts/fonts'
 import { Layout } from '@/components/Layout/Layout';
 import { HeroBanner } from '@/components/HeroBanner/HeroBanner';
@@ -34,15 +34,16 @@ export default function Home() {
       <HeroBanner bgImg={'/public/aaron-burden-1zR3WNSTnvY-unsplash.jpg'} ctaPath={'/programs'} />
 
       <PageRow columns={headerColumn} />
-      <section style={{ paddingBottom: '5rem' }}>
+      <section>
         <div className={'three-card'}>
           <TertiaryCard CardIcon={Assessment} cardLinkLabel={'Assessment Form'} bgColor={`var(--brand-navy)`} path={'/forms'} cardImage={'/cdc-GDokEYnOfnE-unsplash (1).jpg'} />
           <TertiaryCard CardIcon={Publish} cardLinkLabel={'Publications'} cardImage={'/stephen-phillips-hostreviews-co-uk-Gs-tdnDyYKE-unsplash.jpg'} path={'#'} />
           <TertiaryCard CardIcon={Clipboard} cardLinkLabel={'Registration Form'} cardImage={'/kelly-sikkema-tQQ4BwN_UFs-unsplash.jpg'} bgColor={`var(--brand-green)`} path={'/forms'} />
         </div>
         {/* <div className={'underline'}></div> */}
-        <SwirlPattern />
+        {/* <SwirlPattern /> */}
         {/* <PuzzlePattern /> */}
+        <PageRow columns={headerColumn3} />
       </section>
       <section className={'grid-2-col'}>
 

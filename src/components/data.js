@@ -146,6 +146,13 @@ export const headerColumn = [
     }
 ]
 
+export const headerColumn3 = [
+    {
+        header: `We want to make a difference and to uphold transparency, accountability, commitment,
+        and honesty in our relationships.`
+    }
+]
+
 export const headerColumn2 = [
     {
         header: 'Our Services',
