@@ -29,7 +29,7 @@ export default function ProgramDetails() {
     return (
         <Layout>
             <PageWrapper pageHeader={pageData[0]?.name} pageHeaderImg={pageData[0]?.bgImage}>
-                <h1>What do we do?</h1>
+                <h1>What we do</h1>
                 <p>{pageData[0]?.description}</p>
                 <div className={'questionBox'}>
                     <h1>Questions?</h1>

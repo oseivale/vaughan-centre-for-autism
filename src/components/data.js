@@ -144,7 +144,7 @@ export const columns = [
         ctas: [
             {
                 ctaLabel: 'Book Now',
-                ctaPath: '/contacts'
+                ctaPath: '/contact'
             }
         ]
     }

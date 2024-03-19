@@ -20,11 +20,11 @@ export default function Forms() {
         <section>
           <div>
             <h3>Registration Form</h3>
-            <Link className={'btn-link'} href='#'>Download the registration form here <Download /> </Link>
+            <Link className={'btn-link'} target="_blank" href={`/ASSESSMENT FORM.pdf`}>Download the registration form here <Download /> </Link>
           </div>
           <div>
             <h3>Assessment Form</h3>
-            <Link className={'btn-link'} href='#'>Download the assessment form here <Download /> </Link>
+            <Link className={'btn-link'} target="_blank" href={'/Vaughan Centre for Autism -- REGISTRATION - SEPTEMBER 2019.pdf'}>Download the assessment form here <Download /> </Link>
           </div>
         </section>
       </PageWrapper>
