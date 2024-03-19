@@ -1,7 +1,6 @@
 .cardContainer {
     max-width: 90%;
     margin: 0 auto;
-    
 }
 
 .cardWrapper {
@@ -26,4 +25,6 @@
     width: auto;
     display: inline-block;
     margin-bottom: 1.2rem;
+    object-fit: cover;
+    border-radius: 5px;
 }

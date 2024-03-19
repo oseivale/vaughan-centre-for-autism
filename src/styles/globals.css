@@ -115,9 +115,19 @@ caption {
   display: flex;
   flex-direction: column;
 }
+/* 
+.grid-col-1 img {
+  width: 100%;
+  height: 80%;
+} */
+
+.about-img {
+  height: 25rem;
+}
 
 .grid-col-1 img {
   width: 100%;
+  object-fit: cover;
 }
 
 .grid-section {
@@ -145,11 +155,21 @@ caption {
 }
 
 .questionBox a {
-  width: 45%;
+  width: 41%;
 }
 
 .questionBox h1 {
+  display: flex;
   margin: 0;
+  align-items: center;
+}
+
+.questionBox svg {
+  margin-left: .75rem;
+}
+
+.whatWeDo{
+  margin-top: 4rem;
 }
 
 @media screen and (min-width: 740px) {
@@ -201,7 +221,11 @@ caption {
   }
 
   .questionBox a {
-    width: 20%;
+    width: 19%;
+  }
+
+  .whatWeDo{
+    margin-top: 0rem;
   }
 
   .formsPageTitleHeader {
@@ -209,11 +233,15 @@ caption {
   }
 
   .about-img {
-    height: 30rem;
+    height: 37rem;
   }
 
   .grid-col-1 img {
-    width: 80%;
+    width: 100%;
+  }
+
+  .about-img img {
+    width: 90%;
     object-fit: cover;
   }
 }

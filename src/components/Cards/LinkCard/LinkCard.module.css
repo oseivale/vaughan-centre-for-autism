@@ -1,15 +1,19 @@
 .cardWrapper {
     margin-bottom: 12rem;
     margin-left: 0rem;
+    
 }
 
 .cardWrapper img{
     position: absolute;
     display: block;
+    border-radius: 5px;
+    object-fit: cover;
 }
 
 .cardLink {
     text-decoration: none;
+    border-radius: 5px;
 }
 
 .cardText h1, .cardText p {
@@ -32,6 +36,8 @@
     color: var(--brand-white);
     background-image: linear-gradient(rgba(1, 45, 89, .65), rgba(1, 45, 89, .65));
     transition: all 450ms ease-in-out;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
 }
 
 .cardLink:hover .cardText{

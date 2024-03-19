@@ -8,27 +8,17 @@ export const footerData = {
             label: 'About Us',
             path: '/about'
         },
-        // {
-        //     label: 'Career Application',
-        //     path: ''
-        // },
         {
             label: 'Forms',
             path: '/forms'
         },
-        // {
-        //     label: 'Newsletters',
-        //     path: ''
-        // },
+        {
+            label: 'Contact Us',
+            path: '/contact'
+        },
     ]
 }
 
-// Publications
-// Our Team
-// Online Certificate Courses
-// Career Application
-// Child Assessment Form
-// Newsletters
 
 export const services = [
     {

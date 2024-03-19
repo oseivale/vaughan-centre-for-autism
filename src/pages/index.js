@@ -28,7 +28,7 @@ export default function Home() {
       <PageRow columns={headerColumn} />
       <section className={'grid-2-col'}>
 
-        <SecondaryCard cardHeader={'Why Choose Vaughan Center for Autism?'} cardBody={'We provide a comprehensive treatment program for our clients because ASD comes with multiple challenges that need to treated. For example, a nonverbal client is likely to demonstrate behavior or academic challenges because of communication deficits. Consequently, it is important that the client receives treatment for the behaviors that are likely to trigger other negative behaviors.'} />
+        <SecondaryCard cardHeader={'Why Choose Vaughan Centre for Autism?'} cardBody={'We provide a comprehensive treatment program for our clients because ASD comes with multiple challenges that need to treated. For example, a nonverbal client is likely to demonstrate behavior or academic challenges because of communication deficits. Consequently, it is important that the client receives treatment for the behaviors that are likely to trigger other negative behaviors.'} />
         <List listData={listData} listHeader={'All Programs Include:'} />
       </section>
       <PageRow columns={headerColumn2} pattern={true} />

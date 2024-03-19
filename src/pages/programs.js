@@ -15,7 +15,11 @@ export default function Programs() {
   return (
     <Layout>
       <PageWrapper pageHeaderImg={'/sandy-millar-nuS2GDpCDoI-unsplash.jpg'} pageHeader={'Programs'}>
+        {/* <p>Our clinical and special education services are supported by over a decade of our continuing
+          academic research in ABA and Special education services for children with autism and other
+          neurodevelopmental disorders, which has received excellent results from our clients.</p> */}
         <section className={'grid-section'}>
+
           <div className={'grid-card-3-col'}>
             {services.map(service => {
               return (

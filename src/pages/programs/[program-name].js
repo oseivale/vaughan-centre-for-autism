@@ -5,6 +5,7 @@ import { PageWrapper } from "@/components/PageHeader/PageWrapper";
 import { useRouter } from "next/router";
 import { services } from "@/components/data";
 import Link from "next/link";
+import { Question } from "@/icons/question";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -29,10 +30,12 @@ export default function ProgramDetails() {
     return (
         <Layout>
             <PageWrapper pageHeader={pageData[0]?.name} pageHeaderImg={pageData[0]?.bgImage}>
-                <h1>What we do</h1>
+                <div className={'whatWeDo'}>
+                    <h1>What we do</h1>
                 <p>{pageData[0]?.description}</p>
+                </div>
                 <div className={'questionBox'}>
-                    <h1>Questions?</h1>
+                    <h1>Questions <Question /></h1>
                     <p>Feel free to reach out for more information, or to schedule a free consultation!</p>
                     <Link className={'btnSecondary'} href='/contact'>Contact Us</Link>
                 </div>
