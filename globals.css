@@ -25,7 +25,9 @@ caption {
   font-size: 1.2rem;
 }
 
-
+.about-img {
+  height: 40%;
+}
 
 .pattern-container{
   display: flex;
@@ -123,7 +125,6 @@ caption {
   height: 25rem;
   border-radius: 5px;
 }
-
 
 .grid-col-1 img {
   width: 100%;
