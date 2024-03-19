@@ -3,7 +3,7 @@ import { arimo, nunito_sans, grupo, staatliches } from '../../../fonts/fonts';
 import Link from 'next/link';
 import { Arrow } from '@/icons/arrow';
 
-export function PrimaryCard({ icon, cardDescription, cardHeader }) {
+export function PrimaryCard({ icon, cardDescription, cardHeader, path }) {
 
 
     return (
@@ -15,7 +15,7 @@ export function PrimaryCard({ icon, cardDescription, cardHeader }) {
 
                 </div>
                 <p className={nunito_sans.className}>{`${cardDescription.slice(0, 120)}...`}</p>
-                <button className={style.cardButton} href='#'>{'Learn more'} <span><Arrow /></span></button>
+                <Link className={`${style.cardButton} ${nunito_sans.className}`} href={path}>{'Learn more'} <span><Arrow /></span></Link>
             </div>
         </div>
     )

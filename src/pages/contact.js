@@ -10,7 +10,7 @@ import { ContactForm } from "@/components/Form/Form";
 
 const inter = Inter({ subsets: ["latin"] });
 
-export default function Home() {
+export default function Contact() {
   return (
     <Layout>
       <section className={'grid-col-1'}>
@@ -18,7 +18,6 @@ export default function Home() {
           <ContactForm />
         </div>
       </section>
-
     </Layout>
   );
 }

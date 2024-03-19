@@ -1,0 +1,53 @@
+.cardWrapper {
+    margin-bottom: 12rem;
+    margin-left: 0rem;
+    
+}
+
+.cardWrapper img{
+    position: absolute;
+    display: block;
+    border-radius: 5px;
+    object-fit: cover;
+}
+
+.cardLink {
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.cardText h1, .cardText p {
+    position: relative;
+    left: 5%;
+    margin: 0;
+    padding: .5rem 0;
+    font-size: 1.125rem;
+}
+
+.cardText{
+    position: relative;
+    display: flex;
+    align-items: center;
+    top: 9.1rem;
+    left: 0;
+    bottom: 0;
+    height: 5rem;
+    width: 21.85rem;
+    color: var(--brand-white);
+    background-image: linear-gradient(rgba(1, 45, 89, .65), rgba(1, 45, 89, .65));
+    transition: all 450ms ease-in-out;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.cardLink:hover .cardText{
+    background-image: linear-gradient(rgba(255, 255, 255, .65), rgba(255, 255, 255, .65));
+    color: var(--brand-navy);
+}
+
+@media screen and (min-width: 740px) {
+    .cardWrapper {
+        margin-bottom: 12rem;
+        margin-left: 4rem;
+    }
+}

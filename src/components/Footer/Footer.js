@@ -28,8 +28,8 @@ export function Footer({ footerLinks, publications }) {
                     <ul className={style.linkWrapper}>
                         {footerLinks.map(link => {
                             return (
-                                <li key={'#'}>
-                                    <Link href='#'>{link.label}</Link>
+                                <li key={link.path}>
+                                    <Link href={link.path}>{link.label}</Link>
                                 </li>
                             )
                         })}

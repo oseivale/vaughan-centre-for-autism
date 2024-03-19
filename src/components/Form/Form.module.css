@@ -118,6 +118,15 @@
     cursor: pointer;
 }
 
+.formHeader h2::after {
+    content: " ";
+    width: 40px;
+    display: block;
+    position: relative;
+    height: 2px;
+    background-color: var(--brand-navy);
+}
+
 @media screen and (min-width: 740px) {
     .headerContentWrapper{
         display: grid;
@@ -145,6 +154,7 @@
     
     .contactImg {
         height: 35vh;
+        width: 20vw;
         margin-bottom: 0;
     }
     
@@ -154,5 +164,14 @@
 
     .formTextarea {
         height: 7rem
+    }
+
+    .formHeader h2::after {
+        content: " ";
+        width: 74px;
+        display: block;
+        position: relative;
+        height: 2px;
+        background-color: var(--brand-navy);
     }
 }

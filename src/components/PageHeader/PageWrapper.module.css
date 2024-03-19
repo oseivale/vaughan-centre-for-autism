@@ -2,6 +2,24 @@
     width: 100%;
     display: flex;
     flex-direction: column;
+    padding-bottom: 5rem;
+}
+
+.breadCrumb a{
+    text-decoration: none;
+}
+
+.breadCrumb {
+    margin-bottom: 3rem;
+}
+
+.breadCrumb svg {
+    margin-top: 1rem;
+    margin-right: .5rem;
+}
+
+.homeIcon {
+    color: var(--brand-navy)
 }
 
 .contactImg {
@@ -54,7 +72,7 @@
 
 .formHeader h2::after {
     content: " ";
-    width: 74px;
+    width: 40px;
     display: block;
     position: relative;
     height: 2px;
@@ -122,11 +140,27 @@
         
     }
 
+    .formHeader h2::after {
+        content: " ";
+        width: 74px;
+        display: block;
+        position: relative;
+        height: 2px;
+        background-color: var(--brand-white);
+    }
+
     .formHeader {
         box-sizing: border-box;
         height: 100%;
         font-size: 2.5rem;
+        max-height: 40vh;
     }
+
+    .headerContentWrapper img {
+        max-height: 40vh;
+        height: 100%;
+    }
+
     .formWrapper{
         /* margin: 0 .25rem; */
         width: 100%;
@@ -145,6 +179,7 @@
     .contactImg {
         height: 35vh;
         margin-bottom: 0;
+        object-fit: cover;
     }
     
     .formInput {
@@ -152,6 +187,6 @@
     }
 
     .formTextarea {
-        height: 7rem
+        height: 7rem;
     }
 }
