@@ -123,6 +123,7 @@ caption {
 
 .about-img {
   height: 25rem;
+  border-radius: 5px;
 }
 
 .grid-col-1 img {

@@ -19,13 +19,14 @@ export default function About() {
         <PageWrapper pageHeaderImg={'/unseen-studio-s9CC2SKySJM-unsplash.jpg'} pageHeader={'About Us'}>
           <section>
             <h1>Who we are</h1>
-            <p>Albert Wireko Osei, PhD is the Autism Treatment Specialist and the Clinical Director at
-              the Vaughan Centre for Autism in the city of Vaughan, York Region, and the town of
-              Innisfil both in Ontario, Canada.</p>
-            <p>Vaughan Centre for Autism was first opened in the city of Vaughan in May of 2009. It is
+            <p>
+              Vaughan Centre for Autism was first opened in the city of Vaughan in May of 2009. It is
               the most preferred treatment Centre for many children on the autism spectrum. The
-              Centre has also trained many Interns from various community colleges.</p>
-
+              Centre has also trained many Interns from various community colleges.
+            </p>
+            <p>
+              Albert Wireko Osei, PhD is the Autism Treatment Specialist and the Clinical Director at the Vaughan Centre for Autism in the city of Vaughan, York Region, and the town of Innisfil both in Ontario, Canada.
+            </p>
           </section>
           <section>
             <h1>Our Founder</h1>
