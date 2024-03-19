@@ -32,6 +32,7 @@ caption {
   align-items: center;
   color: var(--brand-navy);
   justify-content: center;
+  margin-top: 2rem;
 }
 
 :root {
@@ -172,7 +173,26 @@ caption {
   margin-top: 4rem;
 }
 
+.three-card{
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+.underline::after {
+  content: " ";
+  width: 64px;
+  display: block;
+  position: relative;
+  height: 3px;
+  background-color: var(--brand-red);
+  margin: 5rem auto 0 ;
+}
+
 @media screen and (min-width: 740px) {
+  .pattern-container{
+    margin-top: 4rem;
+  }
+
   .grid-center-3-col{
     display: grid;
     grid-gap: 1rem;
@@ -243,5 +263,13 @@ caption {
   .about-img img {
     width: 90%;
     object-fit: cover;
+  }
+
+  .three-card{
+    display: flex;
+    justify-content: space-around;
+    max-width: 1080px;
+    margin: 2rem auto;
+    width: 100%;
   }
 }

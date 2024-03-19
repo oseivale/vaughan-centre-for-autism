@@ -18,14 +18,32 @@ import { SecondaryCard } from "@/components/Cards/Secondary/SecondaryCard";
 import { PageRow } from "@/components/PageRow/PageRow";
 import { columns, headerColumn, headerColumn2 } from "../components/data";
 import heroImg from '/public/aaron-burden-1zR3WNSTnvY-unsplash.jpg'
+import { TertiaryCard } from "@/components/Cards/TertiaryCard/TertiaryCard";
+import { Assessment } from "@/icons/assessment";
+import { Publish } from "@/icons/publish";
+import { Clipboard } from "@/icons/clipboard";
+import { PuzzlePattern, SwirlPattern } from "@/icons/pattern";
+
 
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
+
   return (
     <Layout>
       <HeroBanner bgImg={'/public/aaron-burden-1zR3WNSTnvY-unsplash.jpg'} ctaPath={'/programs'} />
+
       <PageRow columns={headerColumn} />
+      <section style={{ paddingBottom: '5rem' }}>
+        <div className={'three-card'}>
+          <TertiaryCard CardIcon={Assessment} cardLinkLabel={'Assessment Form'} bgColor={`var(--brand-navy)`} path={'/forms'} cardImage={'/cdc-GDokEYnOfnE-unsplash (1).jpg'} />
+          <TertiaryCard CardIcon={Publish} cardLinkLabel={'Publications'} cardImage={'/stephen-phillips-hostreviews-co-uk-Gs-tdnDyYKE-unsplash.jpg'} path={'#'} />
+          <TertiaryCard CardIcon={Clipboard} cardLinkLabel={'Registration Form'} cardImage={'/kelly-sikkema-tQQ4BwN_UFs-unsplash.jpg'} bgColor={`var(--brand-green)`} path={'/forms'} />
+        </div>
+        {/* <div className={'underline'}></div> */}
+        <SwirlPattern />
+        {/* <PuzzlePattern /> */}
+      </section>
       <section className={'grid-2-col'}>
 
         <SecondaryCard cardHeader={'Why Choose Vaughan Centre for Autism?'} cardBody={'We provide a comprehensive treatment program for our clients because ASD comes with multiple challenges that need to treated. For example, a nonverbal client is likely to demonstrate behavior or academic challenges because of communication deficits. Consequently, it is important that the client receives treatment for the behaviors that are likely to trigger other negative behaviors.'} />
