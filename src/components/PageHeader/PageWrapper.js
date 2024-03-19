@@ -21,7 +21,7 @@ export function PageWrapper({ children, pageHeader, pageHeaderImg, pageHeaderBgC
             </div>
             <div className={style.contactContentWrapper}>
 
-                <div>
+                <div className={style.sideBar}>
 
                     <div>
                         <h2>Location</h2>
@@ -29,7 +29,11 @@ export function PageWrapper({ children, pageHeader, pageHeaderImg, pageHeaderBgC
                     </div>
                     <div>
                         <h2>Hours</h2>
-                        <p>Mon - Sat 8.00 - 18.00</p>
+                        <p>Mon - Sat: 8.00am - 6.00pm</p>
+                    </div>
+                    <div>
+                        <h2>Contact</h2>
+                        <p>tel: 647.518.5492<br />bus: 289.859.7676</p>
                     </div>
 
                     {/* <h2>Quick Links</h2>

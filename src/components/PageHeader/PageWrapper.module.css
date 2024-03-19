@@ -22,6 +22,10 @@
     color: var(--brand-navy)
 }
 
+.sideBar{
+    margin-top: 3rem;
+}
+
 .contactImg {
     width: 100%;
     height: auto;
@@ -51,12 +55,10 @@
 
 .contactContentWrapper {
     width: 100%;
-    display: block;
+    display: flex;
+    flex-direction: column-reverse;
     max-width: 90%;
     margin: 3rem auto;
-}
-
-.contactContentWrapper {
     color: var(--brand-navy);
     padding: 0 1rem;
 }
@@ -139,6 +141,11 @@
         grid-template-columns: 2fr 3fr;
         
     }
+
+    .sideBar{
+        margin-top: 0rem;
+    }
+    
 
     .formHeader h2::after {
         content: " ";

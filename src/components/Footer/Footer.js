@@ -40,7 +40,7 @@ export function Footer({ footerLinks, publications }) {
                     <p>tel: 647.518.5492</p>
                     <p>bus: 289.859.7676</p>
 
-                    <p>Mon - Sat 8.00 - 18.00</p>
+                    <p>Mon - Sat: 8.00am - 6.00pm</p>
                     <p>9131 Keele Street, Suite A4,<br></br> Vaughan, Ontario L4K 0G7</p>
                 </div>
             </div>

@@ -153,6 +153,7 @@ caption {
   padding: 2rem 3rem;
   justify-content: center;
   border-radius: 5px;
+  margin-bottom: 2rem;
 }
 
 .questionBox a {
@@ -170,7 +171,7 @@ caption {
 }
 
 .whatWeDo{
-  margin-top: 4rem;
+  margin-top: 1rem;
 }
 
 @media screen and (min-width: 740px) {
