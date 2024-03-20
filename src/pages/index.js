@@ -23,6 +23,7 @@ import { Assessment } from "@/icons/assessment";
 import { Publish } from "@/icons/publish";
 import { Clipboard } from "@/icons/clipboard";
 import { PuzzlePattern, SwirlPattern } from "@/icons/pattern";
+import { PageRowWrapper } from "@/components/PageRow/PageRowWrapper";
 
 
 const inter = Inter({ subsets: ["latin"] });
@@ -37,7 +38,7 @@ export default function Home() {
       <section>
         <div className={'three-card'}>
           <TertiaryCard CardIcon={Assessment} cardLinkLabel={'Assessment Form'} bgColor={`var(--brand-navy)`} path={'/forms'} cardImage={'/cdc-GDokEYnOfnE-unsplash-one.jpg'} />
-          <TertiaryCard CardIcon={Publish} cardLinkLabel={'Publications'} cardImage={'/stephen-phillips-hostreviews-co-uk-Gs-tdnDyYKE-unsplash.jpg'} path={'#'} />
+          <TertiaryCard CardIcon={Publish} cardLinkLabel={'Publications'} cardImage={'/stephen-phillips-hostreviews-co-uk-Gs-tdnDyYKE-unsplash.jpg'} path={'/publications'} />
           <TertiaryCard CardIcon={Clipboard} cardLinkLabel={'Registration Form'} cardImage={'/kelly-sikkema-tQQ4BwN_UFs-unsplash.jpg'} bgColor={`var(--brand-green)`} path={'/forms'} />
         </div>
         {/* <div className={'underline'}></div> */}
@@ -63,3 +64,12 @@ export default function Home() {
     </Layout>
   );
 }
+
+/* TEST COMPONENT */
+
+{/* <PageRowWrapper sectionHeader={'HEADER'} sectionSubheader={'This is the subheader.'} sectionBodyCopy={'Lorem ipsum.'}>
+
+        <TertiaryCard CardIcon={Assessment} cardLinkLabel={'Assessment Form'} bgColor={`var(--brand-navy)`} path={'/forms'} cardImage={'/cdc-GDokEYnOfnE-unsplash-one.jpg'} />
+        <TertiaryCard CardIcon={Publish} cardLinkLabel={'Publications'} cardImage={'/stephen-phillips-hostreviews-co-uk-Gs-tdnDyYKE-unsplash.jpg'} path={'#'} />
+        <TertiaryCard CardIcon={Clipboard} cardLinkLabel={'Registration Form'} cardImage={'/kelly-sikkema-tQQ4BwN_UFs-unsplash.jpg'} bgColor={`var(--brand-green)`} path={'/forms'} />
+      </PageRowWrapper> */}

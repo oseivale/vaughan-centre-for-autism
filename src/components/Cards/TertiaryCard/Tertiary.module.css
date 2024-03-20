@@ -54,7 +54,6 @@
     transition: all 450ms ease-in-out;
 }
 
-.cardContainer:hover, 
 .cardContainer:hover .textWrapper, 
 .cardContainer:hover .iconWrapper,
 .textWrapper:hover,
