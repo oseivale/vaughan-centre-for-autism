@@ -60,6 +60,14 @@
     height: 2px;
     background-color: var(--brand-navy);
 }
+.teleLink{
+    color: var(--brand-navy);
+    display: inline-block;
+    text-decoration: none;
+    font-size: 1.1rem;
+    margin-bottom: .25rem;
+    margin-left: 1rem;
+}
 
 .formLabel {
     display: block;

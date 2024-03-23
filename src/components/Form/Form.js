@@ -3,6 +3,7 @@ import style from './Form.module.css';
 import { nunito_sans } from '@/fonts/fonts';
 import Image from 'next/image';
 import contactImg from '/public/unseen-studio-s9CC2SKySJM-unsplash.jpg';
+import Link from 'next/link';
 
 export function ContactForm() {
     // State variables to store form input values
@@ -35,8 +36,12 @@ export function ContactForm() {
                 <div>
                     <h2>Location</h2>
                     <p>9131 Keele Street, Suite A4,<br /> Vaughan, Ontario L4K 0G7</p>
+                    <p>1429 Kellough Street, <br />Innisfil Ontario, L9S 0H8.</p>
                     <h2>Hours</h2>
                     <p>Mon - Sat 8.00 - 18.00</p>
+                    <h2>Contact</h2>
+                    <Link className={style.teleLink} href='tel:+16475185492'>tel: 647.518.5492</Link><br />
+                    <Link className={style.teleLink} href='tel:+12898597676'>bus: 289.859.7676</Link>
                 </div>
                 <form className={style.formWrapper} onSubmit={handleSubmit}>
                     {/* Name input field */}

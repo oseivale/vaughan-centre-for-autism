@@ -26,8 +26,9 @@ export function PageWrapper({ children, pageHeader, pageHeaderImg, pageHeaderBgC
                 <div className={style.sideBar}>
 
                     <div>
-                        <h2>Location</h2>
-                        <p>9131 Keele Street, Suite A4,<br /> Vaughan, Ontario L4K 0G7</p>
+                        <h2>Locations</h2>
+                        <p>9131 Keele Street, Suite A4,<br /> Vaughan, Ontario, L4K 0G7</p>
+                        <p>1429 Kellough Street, <br />Innisfil Ontario, L9S 0H8.</p>
                     </div>
                     <div>
                         <h2>Hours</h2>

@@ -40,7 +40,9 @@ export function Footer({ footerLinks, publications }) {
                     <Link className={style.teleLink} href='tel:+16475185492'>tel: 647.518.5492</Link><br />
                     <Link className={style.teleLink} href='tel:+12898597676'>bus: 289.859.7676</Link>
                     <p>Mon - Sat: 8.00am - 6.00pm</p>
+                    <h3>Locations</h3>
                     <p>9131 Keele Street, Suite A4,<br></br> Vaughan, Ontario L4K 0G7</p>
+                    <p>1429 Kellough Street, <br />Innisfil Ontario, L9S 0H8.</p>
                 </div>
             </div>
             <div className={style.bottomBorder}></div>
