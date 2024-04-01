@@ -14,7 +14,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export default function Forms() {
   return (
-    <Layout>
+    <Layout pageTitle={'Forms'}>
       <PageWrapper pageHeaderImg={'/unseen-studio-s9CC2SKySJM-unsplash.jpg'} pageHeader={'Forms'}>
         <h1 className={'formsPageTitleHeader'}>Vaughan Centre for Autism Form Downloads</h1>
         <section>

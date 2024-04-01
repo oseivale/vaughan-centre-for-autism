@@ -10,7 +10,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export default function Publications() {
     return (
-        <Layout>
+        <Layout pageTitle={'Publications'}>
             <div>
                 <PageWrapper pageHeaderImg={'/stephen-phillips-hostreviews-co-uk-Gs-tdnDyYKE-unsplash.jpg'} pageHeader={'Publications'}>
                     <section>

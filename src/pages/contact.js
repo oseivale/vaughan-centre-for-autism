@@ -12,7 +12,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export default function Contact() {
   return (
-    <Layout>
+    <Layout pageTitle={'Contact Us'}>
       <section className={'grid-col-1'}>
         <div>
           <ContactForm />

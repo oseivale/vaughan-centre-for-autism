@@ -31,7 +31,7 @@ const inter = Inter({ subsets: ["latin"] });
 export default function Home() {
 
   return (
-    <Layout>
+    <Layout pageTitle={'Home'}>
       <HeroBanner bgImg={'/public/aaron-burden-1zR3WNSTnvY-unsplash.jpg'} ctaPath={'/programs'} />
 
       <PageRow columns={headerColumn} />

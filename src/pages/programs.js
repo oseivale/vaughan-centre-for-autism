@@ -13,7 +13,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export default function Programs() {
   return (
-    <Layout>
+    <Layout pageTitle={'Programs'}>
       <PageWrapper pageHeaderImg={'/sandy-millar-nuS2GDpCDoI-unsplash.jpg'} pageHeader={'Programs'}>
         {/* <p>Our clinical and special education services are supported by over a decade of our continuing
           academic research in ABA and Special education services for children with autism and other

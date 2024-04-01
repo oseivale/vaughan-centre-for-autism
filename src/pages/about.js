@@ -14,7 +14,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export default function About() {
   return (
-    <Layout>
+    <Layout pageTitle={'About Us'}>
       <div>
         <PageWrapper pageHeaderImg={'/unseen-studio-s9CC2SKySJM-unsplash.jpg'} pageHeader={'About Us'}>
           <section>
