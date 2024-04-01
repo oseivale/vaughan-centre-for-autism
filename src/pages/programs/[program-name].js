@@ -24,12 +24,12 @@ export default function ProgramDetails() {
       return service.path.split("/")[2] === query["program-name"];
     });
     setPageData(serviceData);
-  }, []);
 
-  const serviceTitle = query["program-name"]
-    .split("-")
-    .map((word) => word.charAt(0).toUpperCase() + word.substring(1))
-    .join(" ");
+    const serviceTitle = query["program-name"]
+      .split("-")
+      .map((word) => word.charAt(0).toUpperCase() + word.substring(1))
+      .join(" ");
+  }, []);
 
   return (
     <Layout pageTitle={`${serviceTitle}`}>
@@ -53,8 +53,10 @@ export default function ProgramDetails() {
             Contact Us
           </Link>
         </div>
-        <div className={'servicesLinkWrapper'}>
-            <Link className={'servicesLink'} href={'/programs'}>Back to Services <Arrow /></Link>
+        <div className={"servicesLinkWrapper"}>
+          <Link className={"servicesLink"} href={"/programs"}>
+            Back to Services <Arrow />
+          </Link>
         </div>
       </PageWrapper>
     </Layout>
