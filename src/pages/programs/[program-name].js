@@ -12,6 +12,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export default function ProgramDetails() {
   const [pageData, setPageData] = useState([]);
+  const [serviceTitle, setSetServiceTitle] = useState('')
 
   const router = useRouter();
   console.log("router", router);
@@ -25,10 +26,12 @@ export default function ProgramDetails() {
     });
     setPageData(serviceData);
 
-    const serviceTitle = query["program-name"]
+    const serviceName = query["program-name"]
       .split("-")
       .map((word) => word.charAt(0).toUpperCase() + word.substring(1))
       .join(" ");
+
+      setSetServiceTitle(serviceName)
   }, []);
 
   return (
