@@ -58,7 +58,7 @@ export default function ProgramDetails() {
         </div>
         <div className={"servicesLinkWrapper"}>
           <Link className={"servicesLink"} href={"/programs"}>
-            Back to Services <Arrow />
+            Back to All Programs <Arrow />
           </Link>
         </div>
       </PageWrapper>
