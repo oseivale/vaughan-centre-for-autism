@@ -52,7 +52,10 @@ export function ContactForm() {
             Vaughan, Ontario, L6A 4W2
           </p>
           <h2>Hours</h2>
-          <p>Mon - Sat <br />8:00am - 6:00pm</p>
+          <p>
+            Mon - Sat <br />
+            8:00am - 6:00pm
+          </p>
           <h2>Contact</h2>
           <Link className={style.teleLink} href="tel:+16475185492">
             tel: 647.518.5492
@@ -62,8 +65,21 @@ export function ContactForm() {
             bus: 289.859.7676
           </Link>
         </div>
-        
-        {/* <form className={style.formWrapper} onSubmit={handleSubmit}> */}
+
+        <form className={style.formWrapper} onSubmit={handleSubmit}>
+          <h2>Contact us via email or give us a call!</h2>
+          <Link className={style.teleLink} href="tel:+16475185492">
+            tel: 647.518.5492
+          </Link>
+          <br />
+          <Link className={style.teleLink} href="tel:+12898597676">
+            bus: 289.859.7676
+          </Link>
+          <br />
+          <Link className={style.teleLink} href="mailto:vaughancentreforautism@gmail.com">
+            email: vaughancentreforautism@gmail.com
+          </Link>
+
           {/* Name input field */}
           {/* <div className={style.formInputWrapper}>
             <label className={style.formLabel}>Name</label>
@@ -116,8 +132,7 @@ export function ContactForm() {
               Submit
             </button>
           </div> */}
-        {/* </form> */}
-        <h1>Contact us via email or give us a call!</h1>
+        </form>
       </div>
     </div>
   );

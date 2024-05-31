@@ -16,6 +16,7 @@ export default function Contact() {
       <section className={'grid-col-1'}>
         <div>
           <ContactForm />
+          
         </div>
       </section>
     </Layout>
