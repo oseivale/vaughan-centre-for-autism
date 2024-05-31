@@ -7,6 +7,17 @@
     padding: 3rem 1rem 0 1rem;
 }
 
+.contactInfo strong {
+    display: block;
+    color: var(--brand-white);
+    margin: .75rem 0;
+    font-size: 1.1rem;
+}
+
+.contactInfo p {
+    margin: .1rem;
+}
+
 .footerWrapper{
     margin: 0 auto;
     max-width: 580px;

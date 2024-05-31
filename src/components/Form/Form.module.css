@@ -38,7 +38,7 @@
     margin: 3rem auto;
 }
 
-.contactContentWrapper h2, .contactContentWrapper p {
+.contactContentWrapper h2, .contactContentWrapper p, .contactContentWrapper strong {
     color: var(--brand-navy);
     padding: 0 1rem;
 }

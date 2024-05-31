@@ -13,7 +13,7 @@ export function HeroBanner({ bgImg, id, ctaPath }) {
             {/* <Image className={style.heroImgMobile} src={heroImgMobile} alt='alt' height={200} width={300} /> */}
             <div className={style.heroWrapper}>
                 <h1>Vaughan Centre for Autism</h1>
-                <p>Our clinical intervention program integrates three common intervention methods for persons with autism spectrum disorder or any other developmental disability.</p>
+                <p>We provide effective results-based clinical intervention treatments for persons with Autism Spectrum Disorder & other developmental disorders.</p>
                 <div>
                     <Link className={'btnPrimary'} href={ctaPath}>Learn More</Link>
                 </div>
