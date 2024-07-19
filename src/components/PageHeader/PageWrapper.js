@@ -21,8 +21,8 @@ export function PageWrapper({
           className={style.contactImg}
           alt=""
           src={pageHeaderImg}
-          width={200}
-          height={200}
+          width={1000}
+          height={1000}
         />
         <div className={style.formHeader}>
           <h2>{pageHeader}</h2>

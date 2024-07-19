@@ -9,7 +9,7 @@ export function HeroBanner({ bgImg, id, ctaPath }) {
 
     return (
         <section id={style[`${id}`]} className={`${style.heroContainer} ${nunito_sans.className}`}>
-            <Image className={style.heroImg} src={heroImg} alt='alt' height={300} width={400} />
+            <Image className={style.heroImg} src={heroImg} alt='alt' height={1000} width={1000} />
             {/* <Image className={style.heroImgMobile} src={heroImgMobile} alt='alt' height={200} width={300} /> */}
             <div className={style.heroWrapper}>
                 <h1>Vaughan Centre for Autism</h1>
